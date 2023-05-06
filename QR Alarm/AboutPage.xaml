@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="QR_Alarm.AboutPage">
+    <VerticalStackLayout Spacing="10" Margin="10">
+        <HorizontalStackLayout Spacing="10">
+            <!--Update Image later-->
+            <Image Source="dotnet_bot.png"
+                   SemanticProperties.Description="A strange robot."
+                   HeightRequest="64" />
+            <!--Update Description later-->
+            <Label FontSize="22" FontAttributes="Bold" Text="QR Alarm" VerticalOptions="End" />
+            <Label FontSize="22" Text="v0.0" VerticalOptions="End" />
+        </HorizontalStackLayout>
+        
+        <Label Text="This app is written in XAML and C# with .NET MAUI. by Joseph Litz" />
+        <Button Text="Learn more..." Clicked="LearnMore_Clicked" />
+        <!--Right Click "LearnMore_Clicked" and click "Go to Definition" to change where the button goes-->
+    </VerticalStackLayout>
+</ContentPage>

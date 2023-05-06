@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="QR_Alarm.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:QR_Alarm">
+<!--Figure out how to make this a sandwich button, or just add a settings page later that will be the only tab, AboutPage will be inside and closing the settings will take you back to the MainPage (alarm page)-->
+    <TabBar>
+        <ShellContent
+            Title="Alarms"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Icon="{OnPlatform 'icon_alarm.png', iOS='icon_alarm_ios.png', MacCatalyst='icon_alarm_ios.png'}" />
+
+        <ShellContent
+            Title="About"
+            ContentTemplate="{DataTemplate local:AboutPage}"
+            Icon="{OnPlatform 'icon_about.png', iOS='icon_about_ios.png', MacCatalyst='icon_about_ios.png'}" />
+    </TabBar>
+
+</Shell>
