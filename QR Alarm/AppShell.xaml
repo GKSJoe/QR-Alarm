@@ -4,7 +4,11 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:QR_Alarm">
-<!--Figure out how to make this a sandwich button, or just add a settings page later that will be the only tab, AboutPage will be inside and closing the settings will take you back to the MainPage (alarm page)-->
+<!--Figure out how to make this a sandwich button, or just add a settings page later that will be the only tab, 
+    AboutPage will be inside and closing the settings will take you back to the MainPage (alarm page).
+    
+    Also this is the page where you make changes to the whole app, menus that should be accessable from anywhere
+    go in here.-->
     <TabBar>
         <ShellContent
             Title="Alarms"

@@ -76,14 +76,22 @@ public partial class MainPage : ContentPage
 
 
 
+///To Learn:
+///[]Lists
+///[]Classes
+///[]Constructors
+
+
 /// To Do:
 /// [x]When alarm time comes after it's set it throws an exception, chase exception first.
 /// [x]Alarm firing should be a seperate ContentPage. 
 /// [x]Media player should kill when popping back to MainPage
 /// []Get the alarm time to show on the page after setting.
+/// []Save alarms
 /// []A toggle for isOn
 /// []Snooze vs turn off, Snooze activated on AlarmFirePage should set isSnooze to true on MainPage
 /// []QR Code reader as turn off
+/// []Keep alarm running in background
 /// []Add various alarm sounds https://learn.microsoft.com/en-us/dotnet/communitytoolkit/maui/views/mediaelement
 /// should be the embed section. Just set one noise.
 /// []Disable certain buttons when alarm is on, see AlarmFirePage for info
