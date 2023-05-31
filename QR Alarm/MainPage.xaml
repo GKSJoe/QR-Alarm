@@ -6,16 +6,23 @@
     <!--Alarm page-->
     <ScrollView>
         <VerticalStackLayout>
+            
+            <Label Text="Set Alarm Time"/>
 
-            <Label Text="Set Alarm Time" />
-            <Button Text="Set Alarm" Clicked="OnSetAlarmClicked" />
+            <Button Text="Set Alarm"
+                    Clicked="OnSetAlarmClicked"/>
 
-            <StackLayout x:Name="timePickerLayout" IsVisible="False">
-                <TimePicker x:Name="timePicker" Time="{Binding alarmTime}" />
-                <Button Text="Save" Clicked="OnSaveClicked" />
+            <StackLayout x:Name="timePickerLayout"
+                         IsVisible="False">
+
+                <TimePicker x:Name="timePicker"
+                            Time="{Binding alarmTime}"/>
+
+                <Button Text="Save"
+                        Clicked="OnSaveClicked"/>
+
             </StackLayout>
 
         </VerticalStackLayout>
     </ScrollView>
-
 </ContentPage>
